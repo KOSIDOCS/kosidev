@@ -10,6 +10,13 @@ html {
   box-sizing: border-box;
 }
 
+/*
+   ** Customize the progress-bar color
+   */
+.loading {
+  color: "#fff";
+}
+
 .VueCarousel-inner {
   display: flex;
   align-items: center;

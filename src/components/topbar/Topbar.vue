@@ -28,14 +28,10 @@ export default {
     }
   },
   created () {
-    if (process.client) {
-      window.addEventListener('scroll', this.handleScroll)
-    }
+    window.addEventListener('scroll', this.handleScroll)
   },
   destroyed () {
-    if (process.client) {
-      window.removeEventListener('scroll', this.handleScroll)
-    }
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll (event) {

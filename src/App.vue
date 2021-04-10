@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Preloader />
     <Topbar />
     <div v-scroll-spy="{ offset: 0, allowNoActive: true }">
       <section>
@@ -8,12 +9,14 @@
       <section>
         <About />
       </section>
+      <section>
+        <Portfolio />
+      </section>
+      <section>
+        <Wallpapers />
+      </section>
     </div>
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/> -->
+     <WebsiteFooter />
   </div>
 </template>
 
@@ -21,19 +24,27 @@
 import Topbar from '@/components/topbar/Topbar'
 import HomeWallpaper from '@/components/home/HomeWallpaper'
 import About from '@/components/about/About'
+import Portfolio from '@/components/portfolio/Portfolio'
+import Wallpapers from '@/components/wallpapers/Wallpapers'
+import WebsiteFooter from '@/components/footer/WebsiteFooter'
+import Preloader from '@/components/preloader/Preloader'
 
 export default {
   components: {
     Topbar,
     HomeWallpaper,
-    About
+    About,
+    Portfolio,
+    Wallpapers,
+    WebsiteFooter,
+    Preloader
+  },
+  mounted () {
+    setTimeout(() => {
+      const preloader = document.getElementById('preloader')
+      preloader.classList.toggle('loaded')
+    }, 500)
   }
-  // mounted () {
-  //   setTimeout(() => {
-  //     const preloader = document.getElementById('preloader')
-  //     preloader.classList.toggle('loaded')
-  //   }, 500)
-  // }
 }
 </script>
 

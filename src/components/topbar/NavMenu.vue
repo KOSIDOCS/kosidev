@@ -14,6 +14,8 @@
 
 <script>
 import { rgba } from 'polished'
+// import { VScrollSpyActive,  VScrollSpyLink} from 'vue2-scrollspy'
+
 export default {
   name: 'NavMenu',
   props: {

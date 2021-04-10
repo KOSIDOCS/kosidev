@@ -62,7 +62,7 @@
         </slide>
       </carousel>
     </client-only>
-    <!-- <AboutCircles /> -->
+    <AboutCircles />
     <!-- </div> -->
   </div>
 </template>
@@ -71,7 +71,7 @@
 import { Carousel, Slide } from 'vue-carousel'
 import ClientOnly from 'vue-client-only'
 import SectionTitle from '../shared/SectionTitle'
-// import AboutCircles from './AboutCircles'
+import AboutCircles from './AboutCircles'
 import AboutSkills from './AboutSkills'
 import AboutSwipeButton from './AboutSwipeButton'
 import AboutLanguages from './AboutLanguages'
@@ -80,7 +80,7 @@ export default {
   name: 'About',
   components: {
     SectionTitle,
-    // AboutCircles,
+    AboutCircles,
     AboutSkills,
     AboutSwipeButton,
     AboutLanguages,
