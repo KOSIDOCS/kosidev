@@ -8,13 +8,12 @@
     <a :style="{ color: getFontColor }" class="nav-button">Home</a>
     <a :style="{ color: getFontColor }" class="nav-button">About</a>
     <a :style="{ color: getFontColor }" class="nav-button">Portfolio</a>
-    <a :style="{ color: getFontColor }" class="nav-button">Wallpapers</a>
+    <a :style="{ color: getFontColor }" class="nav-button">Services</a>
   </div>
 </template>
 
 <script>
 import { rgba } from 'polished'
-// import { VScrollSpyActive,  VScrollSpyLink} from 'vue2-scrollspy'
 
 export default {
   name: 'NavMenu',

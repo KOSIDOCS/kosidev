@@ -2,6 +2,7 @@
   <div class="wrapper" id="home-banner">
     <span :style="{ opacity: logoOpacity, transition: 'all 0.2s' }">
       kosidocs
+      <Typeform />
     </span>
     <ScrollButton />
   </div>
@@ -9,11 +10,13 @@
 
 <script>
 import ScrollButton from './HomeScrollButton'
+import Typeform from '../shared/Typeform'
 
 export default {
   name: 'HomeWallpaper',
   components: {
-    ScrollButton
+    ScrollButton,
+    Typeform
   },
   data () {
     return {
@@ -60,6 +63,10 @@ export default {
   background-position: center;
   color: rgba(white, 0.95);
   background: url('~@/assets/images/squares.png');
+  span {
+    display: flex;
+    flex-direction: column;
+  }
   @media (min-width: $screenWidthSm) {
     font-size: 24px;
     height: 290px;

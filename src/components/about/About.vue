@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="about-wrapper">
-    <!-- <div v-animate="'slide-up'"> -->
+    <div v-animate="'slide-up'">
     <client-only>
       <carousel :per-page="1" :paginationEnabled="false">
         <slide>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="order-1 order-md-2 col-md-4 styled-col">
                       <div class="about-img-wrapper">
-                        <img class="about-img" src="~@/assets/images/kosi.png" />
+                        <img class="about-img" src="~@/assets/images/kosidocs-img.svg" />
                       </div>
                     </div>
                   </div>
@@ -63,7 +63,7 @@
       </carousel>
     </client-only>
     <AboutCircles />
-    <!-- </div> -->
+    </div>
   </div>
 </template>
 

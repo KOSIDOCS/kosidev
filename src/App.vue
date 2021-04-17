@@ -13,8 +13,11 @@
         <Portfolio />
       </section>
       <section>
-        <Wallpapers />
+        <Offers />
       </section>
+      <!-- <section>
+        <Wallpapers />
+      </section> -->
     </div>
      <WebsiteFooter />
   </div>
@@ -25,9 +28,10 @@ import Topbar from '@/components/topbar/Topbar'
 import HomeWallpaper from '@/components/home/HomeWallpaper'
 import About from '@/components/about/About'
 import Portfolio from '@/components/portfolio/Portfolio'
-import Wallpapers from '@/components/wallpapers/Wallpapers'
+// import Wallpapers from '@/components/wallpapers/Wallpapers'
 import WebsiteFooter from '@/components/footer/WebsiteFooter'
 import Preloader from '@/components/preloader/Preloader'
+import Offers from '@/components/offers/Offers '
 
 export default {
   components: {
@@ -35,9 +39,10 @@ export default {
     HomeWallpaper,
     About,
     Portfolio,
-    Wallpapers,
+    // Wallpapers,
     WebsiteFooter,
-    Preloader
+    Preloader,
+    Offers
   },
   mounted () {
     setTimeout(() => {

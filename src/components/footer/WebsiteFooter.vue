@@ -32,7 +32,7 @@
                   Portfolio
                 </a>
                 <a class="footer__link">
-                  Wallpapers
+                  Services
                 </a>
               </div>
             </div>
@@ -70,6 +70,7 @@
                   <uil-linkedin-alt size="32px" class="logo" />
                 </a>
               </div>
+              <Typeform />
             </div>
           </div>
         </div>
@@ -80,13 +81,15 @@
 
 <script>
 import { UilGithub, UilInstagram, UilLinkedinAlt, UilTwitterAlt } from '@iconscout/vue-unicons'
+import Typeform from '../shared/Typeform'
 
 export default {
   components: {
     UilGithub,
     UilInstagram,
     UilTwitterAlt,
-    UilLinkedinAlt
+    UilLinkedinAlt,
+    Typeform
   }
 }
 </script>
