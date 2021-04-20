@@ -10,12 +10,14 @@
           />
 
           <div class="portfolio-row" :style="{ marginBottom: '8rem' }">
-            <TiltCard class="portfolio-img" imagePath="images/mi-screen.png" />
+            <TiltCard
+              class="portfolio-img"
+              :imagePath="require('@/assets/images/mi-cro.png')"
+            />
             <div class="portfolio-text portfolio-text--right">
               <h3 class="portfolio-h3">Micro Interactions</h3>
               <p class="portfolio-p">
-                Written in Vue and Styled Components, this is a collaboration
-                project between myself and many talented Instagram designers.
+                Written in Vue, React, and Styled Components.
               </p>
               <a
                 class="portfolio-link"
@@ -27,10 +29,10 @@
           </div>
           <div class="portfolio-row needs-reverse">
             <div class="portfolio-text portfolio-text--left">
-              <h3 class="portfolio-h3">Vooze</h3>
+              <h3 class="portfolio-h3">Works</h3>
               <p class="portfolio-p">
-                Written in Vue and Styled Components, this is an admin dashboard
-                that features many modern design and UX trends this year.
+                Written in React, Vue, Flutter and Styled Components, this is a
+                portfolio page that features my works.
               </p>
               <a
                 class="portfolio-link"
@@ -41,37 +43,27 @@
             </div>
             <TiltCard
               class="portfolio-img"
-              imagePath="images/vooze-screen.png"
+              :imagePath="require('@/assets/images/mi-cro2.png')"
             />
           </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="offset-md-2"></div>
-        <div class="col-md-8">
-          <div v-animate="'slide-up'">
-            <div>
-              <SectionTitle
-                title="Portfolio"
-                description="My most recent work"
-              />
-              <a
-                class="portfolio-card"
-                href="http://vooze.vuezythemes.com"
-                target="_blank"
-              >
-              <div class="portfolio-card-title">
-                  Vooze
-                </div>
-                <div class="portfolio-card-subtitle">
-                  An Admin Template built with Vue and Styled Components.
-                </div>
-                <TiltCard
-              class="portfolio-card-img "
-              imagePath="images/vooze-screen.png"
+          <div class="portfolio-row" :style="{ marginTop: '8rem' }">
+            <TiltCard
+              class="portfolio-img"
+              :imagePath="require('@/assets/images/meow2.png')"
             />
-              </a>
+            <div class="portfolio-text portfolio-text--right">
+              <h3 class="portfolio-h3">Meow</h3>
+              <p class="portfolio-p">
+                This is a Job platform for software developers Written in React,
+                Redux, Polished and Styled Components.
+              </p>
+              <a
+                class="portfolio-link"
+                target="_blank"
+                href="https://meowjobapp.herokuapp.com/"
+                >Interactive Demo</a
+              >
             </div>
           </div>
         </div>
@@ -96,7 +88,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "src/assets/scss/variables.scss";
+@import 'src/assets/scss/variables.scss';
 
 .portfolio-wrapper {
   background: #f7f4ff;
@@ -223,5 +215,9 @@ export default {
 
 .slide-up.animate-active {
   opacity: 1;
+}
+
+.cs-top {
+  margin-top: 3rem;
 }
 </style>

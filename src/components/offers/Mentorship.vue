@@ -4,23 +4,29 @@
       <div>
         <div class="mentor_head">
           <h3 class="card__content-title">
-          Book a mentoring session
-        </h3>
-        <uil-desktop size="37px" color=" #8800ff" class="logo" />
+            Book a mentoring session
+          </h3>
+          <uil-desktop size="37px" color=" #8800ff" class="logo" />
         </div>
         <h4 class="card__content-subtitle">
-          What's next for you? Are you considering switching careers to become a software developer? Want to get started with programming but not sure if it's for you? Schedule a one-on-one mentorship session with me, and we'll strategize what makes sense for you. I'll share my insights & experience from working in the industry and discuss my honest thoughts about the space. We'll schedule a one-on-one Zoom and a follow-up at a date and time that works with your schedule. Let's strategize together and set goals that make sense for you during a personalized mentorship session! Mentorship sessions are available to book now!
+          What's next for you? Are you considering switching careers to become a
+          software developer? Want to get started with programming but not sure
+          if it's for you? Schedule a one-on-one mentorship session with me, and
+          we'll strategize what makes sense for you. I'll share my insights &
+          experience from working in the industry and discuss my honest thoughts
+          about the space. We'll schedule a one-on-one Zoom and a follow-up at a
+          date and time that works with your schedule. Let's strategize together
+          and set goals that make sense for you during a personalized mentorship
+          session! Mentorship sessions are available to book now!
         </h4>
         <div class="action_group">
-          <TakeActions icon="laptop_mac" title="1:1 experience"/>
-          <TakeActions icon="favorite" title="Tailored for you"/>
-          <TakeActions icon="bolt" title="Actionable advice"/>
+          <TakeActions icon="laptop_mac" title="1:1 experience" />
+          <TakeActions icon="favorite" title="Tailored for you" />
+          <TakeActions icon="bolt" title="Actionable advice" />
         </div>
-        <Sbutton :href="link"
-      target="_blank"
-      rel="noopener"
-      primary
-      >Learn More</Sbutton>
+        <Sbutton :href="link" target="_blank" rel="noopener" primary
+          >Learn More</Sbutton
+        >
       </div>
     </span>
   </span>
@@ -39,14 +45,14 @@ export default {
   },
   data () {
     return {
-      link: 'https://github.com/styled-components/styled-components'
+      link: 'mailto:me.kosidocs@gmail.com'
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "src/assets/scss/variables.scss";
+@import 'src/assets/scss/variables.scss';
 .card {
   display: block;
   padding: 2.1rem 2rem;

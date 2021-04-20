@@ -1,68 +1,73 @@
 <template>
   <div id="about" class="about-wrapper">
     <div v-animate="'slide-up'">
-    <client-only>
-      <carousel :per-page="1" :paginationEnabled="false">
-        <slide>
-          <div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 offset-md-2 col-md-8">
-                  <div class="row">
-                    <div class="order-2 order-md-1 col-md-8 styled-left">
-                      <div class="about-right">
-                        <SectionTitle
-                          title="Hi, I'm Kosiso"
-                          description="Frontend Developer"
-                        />
-                        <div class="about-text">
-                          Through constant learning and creation, I produce
-                          aesthetic software to the highest standard. I’m
-                          largely framework agnostic but technologies I love
-                          right now are React, Vue and Styled Components.
+      <client-only>
+        <carousel :per-page="1" :paginationEnabled="false">
+          <slide>
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 offset-md-2 col-md-8">
+                    <div class="row">
+                      <div class="order-2 order-md-1 col-md-8 styled-left">
+                        <div class="about-right">
+                          <SectionTitle
+                            title="Hi, I'm Kosiso"
+                            description="Frontend Developer"
+                          />
+                          <div class="about-text">
+                            Building user centred, lasting and professional
+                            software to the highest industry standard. I foccus
+                            on designing, building, customizing websites, web
+                            apps and mobile apps. Frameworks I love right now
+                            are React, Vue, Styled Components and Flutter. My
+                            design system is card UI.
+                          </div>
+                          <AboutSwipeButton />
                         </div>
-                        <AboutSwipeButton />
                       </div>
-                    </div>
-                    <div class="order-1 order-md-2 col-md-4 styled-col">
-                      <div class="about-img-wrapper">
-                        <img class="about-img" src="~@/assets/images/kosidocs-img.svg" />
+                      <div class="order-1 order-md-2 col-md-4 styled-col">
+                        <div class="about-img-wrapper">
+                          <img
+                            class="about-img"
+                            src="~@/assets/images/kosidocs-img.svg"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </slide>
-        <slide>
-          <div>
-            <div class="container">
-              <AboutSkills />
+          </slide>
+          <slide>
+            <div>
+              <div class="container">
+                <AboutSkills />
+              </div>
             </div>
-          </div>
-        </slide>
-        <slide>
-          <div>
-            <div class="container">
-              <div class="row">
-                <div class="offset-md-2 col-md-8">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <AboutPassions />
-                    </div>
-                    <div class="col-md-6">
-                      <AboutLanguages />
+          </slide>
+          <slide>
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="offset-md-2 col-md-8">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <AboutPassions />
+                      </div>
+                      <div class="col-md-6">
+                        <AboutLanguages />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </slide>
-      </carousel>
-    </client-only>
-    <AboutCircles />
+          </slide>
+        </carousel>
+      </client-only>
+      <AboutCircles />
     </div>
   </div>
 </template>
@@ -93,7 +98,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~@/assets/scss/variables";
+@import '~@/assets/scss/variables';
 .VueCarousel-slide {
   max-width: 100%;
 }

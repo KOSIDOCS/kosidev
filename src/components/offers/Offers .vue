@@ -6,7 +6,7 @@
           <SectionTitle
             :style="{ marginBottom: '5rem' }"
             title="Services"
-            description="Offers Mentorship and Project"
+            description="Offers Project development, Mentorship and also available to work."
           />
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

@@ -9,9 +9,9 @@
                 About
               </div>
               <div class="footer__text">
-                Handcrafted with Vue, Nuxt and SCSS.
+                Handcrafted with Vue, TypeScript, SCSS, and Styled Component.
                 <br /><br />
-                © frontendjoe 2020
+                © kosidev 2021
               </div>
             </div>
             <div
@@ -42,28 +42,28 @@
               </div>
               <div class="footer__iconList">
                 <a
-                  href="https://instagram.com/frontendjoe"
+                  href="https://github.com/KOSIDOCS"
                   target="_blank"
                   class="footer__icon"
                 >
                   <uil-github size="34px" class="logo" />
                 </a>
                 <a
-                  href="https://github.com/vuezy"
+                  href="https://www.instagram.com/kosidocs/"
                   target="_blank"
                   class="footer__icon"
                 >
                   <uil-instagram size="34px" class="logo" />
                 </a>
                 <a
-                  href="https://github.com/vuezy"
+                  href="https://twitter.com/21_kp_"
                   target="_blank"
                   class="footer__icon"
                 >
                   <uil-twitter-alt size="36px" class="logo" />
                 </a>
                 <a
-                  href="https://github.com/vuezy"
+                  href="https://www.linkedin.com/in/kosisochukwu-precious-b7883314a/"
                   target="_blank"
                   class="footer__icon"
                 >

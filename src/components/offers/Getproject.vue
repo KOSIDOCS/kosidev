@@ -9,13 +9,12 @@
           <uil-lightbulb-alt size="37px" color=" #8800ff" class="logo" />
         </div>
         <h4 class="card__content-subtitle">
-          I write code that makes an impact. Whether its a Slack bot that
-          automates your morning routine or a customized backend service to
-          manage your workflow, I enjoy building products that let us spend our
-          time doing what we love most. Code that I've written has been used by
-          hundreds of thousands of individuals around the world. How many will
-          your project reach? Email me with the link below and lets setup a
-          project consultation.
+          I write code that makes an impact. Whether its a customized app
+          service to manage your workflow, I enjoy building products that let us
+          spend our time doing what we love most. Code that I've written has
+          been used in a healthcare web app for individuals around the world.
+          How many will your project reach? Email me with the link below and
+          lets setup a project consultation.
         </h4>
         <div class="action_group">
           <Stitle>JavaScript</Stitle>
